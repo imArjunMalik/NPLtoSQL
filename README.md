@@ -20,11 +20,12 @@ This project is designed to translate natural language inputs into SQL queries u
 
 - Create a .env file in the root directory.
 - Add your OpenAI API key to the .env file
-
+  ```sh
   OPENAI_API_KEY=your_openai_api_key
 
 ## Example run
 
+```sh
 Enter the info you want: Show me the total sales for the last month
 Generated SQL Query: 
 SELECT SUM(sales) 

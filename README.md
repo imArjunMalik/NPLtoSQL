@@ -31,6 +31,7 @@ Generated SQL Query:
 SELECT SUM(sales) 
 FROM Sales 
 WHERE date >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)
+```sh
 
 ## Acknowledgements
 

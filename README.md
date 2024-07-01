@@ -23,6 +23,11 @@ This project is designed to translate natural language inputs into SQL queries u
   ```sh
   OPENAI_API_KEY=your_openai_api_key
 
+## Acknowledgements
+
+- OpenAI
+- SQLAlchemy
+
 ## Example run
 
 ```sh
@@ -31,9 +36,3 @@ Generated SQL Query:
 SELECT SUM(sales) 
 FROM Sales 
 WHERE date >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)
-```sh
-
-## Acknowledgements
-
-- OpenAI
-- SQLAlchemy
